@@ -1,0 +1,41 @@
+.btn-oder{
+    color : var(--bs-teal);
+    border-color:var(--bs-teal);
+}
+.btn-oder:hover,
+.btn-oder:active
+{
+    color: white;
+    background-color: var(--bs-teal);
+}
+.cc-navbar{
+    font-family: sans-serif;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.banner
+{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+            url("../images/main.jpg") center fixed no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 800px;
+}
+
+.banner-desc
+{
+    height: 365px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: Mono-B;
+    color: whitesmoke;
+
+}
+#monBandeau
+{
+    height: 40px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Mono-B;
+    color: whitesmoke;
+}
+
